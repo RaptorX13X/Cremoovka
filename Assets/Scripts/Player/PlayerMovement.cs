@@ -16,9 +16,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float maxXRot;
     private float xRotation = 0f;
 
-    private void Start()
+    private void Awake()
     {
-        //Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void Update()

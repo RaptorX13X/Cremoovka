@@ -126,8 +126,8 @@ MonoBehaviour:
   controller: {fileID: 2341129702069895557}
   movSpeed: 4
   mouseSens: 1000
-  minXRot: 0
-  maxXRot: 30
+  minXRot: -45
+  maxXRot: 45
 --- !u!143 &2341129702069895557
 CharacterController:
   m_ObjectHideFlags: 0

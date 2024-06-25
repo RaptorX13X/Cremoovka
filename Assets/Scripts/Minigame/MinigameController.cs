@@ -7,6 +7,12 @@ public class MinigameController : MonoBehaviour
 {
     [SerializeField] private List<PuzzleAnchor> anchors;
     [SerializeField] private GameObject background;
+
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+    }
+
     private void Update()
     {
         foreach (PuzzleAnchor anchor in anchors)
