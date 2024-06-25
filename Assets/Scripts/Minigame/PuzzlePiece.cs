@@ -12,6 +12,7 @@ public class PuzzlePiece : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     private RectTransform rectTransform;
     [SerializeField] private Canvas canvas;
     private CanvasGroup canvasGroup;
+    [SerializeField] public int pieceNumber;
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
