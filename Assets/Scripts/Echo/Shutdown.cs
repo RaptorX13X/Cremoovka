@@ -6,11 +6,11 @@ using UnityEngine.UIElements;
 
 public class Shutdown : MonoBehaviour
 {
-    private MeshRenderer meshRenderer;
+    public MeshRenderer meshRenderer;
 
     private void Start()
     {
-        meshRenderer.GetComponent<MeshRenderer>();
+        meshRenderer = GetComponent<MeshRenderer>();
         meshRenderer.enabled = false;
     }
 
