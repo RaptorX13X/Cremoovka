@@ -15,9 +15,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float minXRot;
     [SerializeField] private float maxXRot;
     private float xRotation = 0f;
+    public bool isMoving;
 
-    private void Awake()
-    {
+    private void Awake() {
         Cursor.lockState = CursorLockMode.Locked;
     }
 
@@ -28,6 +28,9 @@ public class PlayerMovement : MonoBehaviour
         
         float mouseX = Input.GetAxis("Mouse X") * mouseSens * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSens * Time.deltaTime;
+
+        if (movement != Vector3.zero) isMoving = true;
+        else isMoving = false;
 
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, minXRot, maxXRot);
