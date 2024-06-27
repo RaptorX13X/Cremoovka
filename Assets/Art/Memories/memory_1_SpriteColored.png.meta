@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: memory_1_SpriteColored_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 338
+        width: 2624
+        height: 2275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd8ce4c3dda94b4198b240ad6fae88f
+      internalID: -1776792673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memory_1_SpriteColored_1
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 338
+        width: 2624
+        height: 2275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d97d84c29d69e44ca44aa962361b981
+      internalID: 222753036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memory_1_SpriteColored_2
+      rect:
+        serializedVersion: 2
+        x: 5664
+        y: 353
+        width: 2624
+        height: 2260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217b738923e4fed48914094e7551cc03
+      internalID: -754931017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memory_1_SpriteColored_3
+      rect:
+        serializedVersion: 2
+        x: 8560
+        y: 353
+        width: 2624
+        height: 2260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77087a00267e93240b51721af16dd163
+      internalID: 1497640510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memory_1_SpriteColored_4
+      rect:
+        serializedVersion: 2
+        x: 11494
+        y: 353
+        width: 2624
+        height: 2260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fa7680703b08c44a0774b4eff2129c
+      internalID: -747413634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memory_1_SpriteColored_5
+      rect:
+        serializedVersion: 2
+        x: 14372
+        y: 353
+        width: 2624
+        height: 2260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0478e39b5b8730f41a707b0147b78f10
+      internalID: -750270108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memory_1_SpriteColored_6
+      rect:
+        serializedVersion: 2
+        x: 17203
+        y: 353
+        width: 2624
+        height: 2260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a50a3b5b992acf4ca19da03a877a241
+      internalID: 863857548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memory_1_SpriteColored_7
+      rect:
+        serializedVersion: 2
+        x: 20126
+        y: 353
+        width: 2624
+        height: 2260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15f563212509e64bb2a12c2c75617d1
+      internalID: 216608470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      memory_1_SpriteColored_0: -1776792673
+      memory_1_SpriteColored_1: 222753036
+      memory_1_SpriteColored_2: -754931017
+      memory_1_SpriteColored_3: 1497640510
+      memory_1_SpriteColored_4: -747413634
+      memory_1_SpriteColored_5: -750270108
+      memory_1_SpriteColored_6: 863857548
+      memory_1_SpriteColored_7: 216608470
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

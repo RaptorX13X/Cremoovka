@@ -15,6 +15,9 @@ public class MinigameController : MonoBehaviour
 
     [SerializeField] private GameObject originalMemory;
     [SerializeField] private GameObject newMemory;
+    [SerializeField] private GameObject memorySpirit;
+    [SerializeField] private AudioClip memoryMusic;
+    [SerializeField] private Music player;
 
     public void StartMinigame()
     {
@@ -46,6 +49,8 @@ public class MinigameController : MonoBehaviour
         dialogueCanvas.SetActive(true);
         originalMemory.SetActive(false);
         newMemory.SetActive(true);
+        memorySpirit.SetActive(true);
+        player.PlayMemoryMusic(memoryMusic);
         //dialogueManager.isDialogueActive = false;
     }
 }

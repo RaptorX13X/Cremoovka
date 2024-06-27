@@ -7,6 +7,7 @@ public class FootstepSound : MonoBehaviour
     [Header("Footstep Settings")]
     [SerializeField] private AudioSource footstepSource;
     [SerializeField] private AudioClip[] footstepClips;
+    [SerializeField] private AudioClip[] caneClips;
     [SerializeField] private float stepInterval = 0.5f;
 
     private PlayerMovement playerMovement;
@@ -17,7 +18,7 @@ public class FootstepSound : MonoBehaviour
         playerMovement = GetComponent<PlayerMovement>();
     }
 
-    private void Update()
+    /*private void Update()
     {
         if (playerMovement.isMoving)
         {
@@ -33,9 +34,9 @@ public class FootstepSound : MonoBehaviour
         {
             stepTimer = 0f;
         }
-    }
+    }*/
 
-    private void PlayFootstep()
+    public void PlayFootstep()
     {
         if (footstepClips.Length > 0)
         {
@@ -43,5 +44,16 @@ public class FootstepSound : MonoBehaviour
             footstepSource.PlayOneShot(footstepClips[clipIndex]);
         }
     }
+    
+    public void PlayCane()
+    {
+        if (caneClips.Length > 0)
+        {
+            int clipIndex = Random.Range(0, caneClips.Length);
+            footstepSource.PlayOneShot(caneClips[clipIndex]);
+        }
+    }
+
+    
 }
 

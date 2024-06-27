@@ -10,6 +10,7 @@ public class EchoSphere : MonoBehaviour
     [SerializeField] private float timeToWaitEchoToStep = 0.5f;
     [SerializeField] private LayerMask echoLayer;
     public List<MeshRenderer> echoObjects;
+    [SerializeField] private FootstepSound footsteps;
 
     private void Start()
     {
@@ -49,9 +50,9 @@ public class EchoSphere : MonoBehaviour
     {
         while(playerMovement.isMoving)
         {
-            //play stepping sound
+            footsteps.PlayFootstep();
             yield return new WaitForSeconds(timeToWaitStepToEcho);
-            //play echo sound
+            footsteps.PlayCane();
             foreach (MeshRenderer echoObject in echoObjects)
             {
                 if (echoObject == null) continue;
