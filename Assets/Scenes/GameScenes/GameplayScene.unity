@@ -1135,6 +1135,8 @@ MonoBehaviour:
   firstDialogue: {fileID: 173555877}
   minigame: {fileID: 5456921619508049205}
   secondDialogue: {fileID: 855262683}
+  isActuallySecond: 0
+  nextMemorySequence: {fileID: 0}
 --- !u!82 &173555882
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4026,8 +4028,8 @@ Transform:
   m_GameObject: {fileID: 632385042}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -8.77, y: 2.01, z: 21.69}
-  m_LocalScale: {x: 0.0015, y: 0.0015, z: 0.0015}
+  m_LocalPosition: {x: -8.77, y: 2.114, z: 21.69}
+  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -7684,7 +7686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.6862745}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -12143,6 +12145,8 @@ MonoBehaviour:
   firstDialogue: {fileID: 1855850084}
   minigame: {fileID: 5456921619508049205}
   secondDialogue: {fileID: 855262683}
+  isActuallySecond: 0
+  nextMemorySequence: {fileID: 0}
 --- !u!114 &1855850084
 MonoBehaviour:
   m_ObjectHideFlags: 0
