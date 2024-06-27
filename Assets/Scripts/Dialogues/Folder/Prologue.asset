@@ -12,4 +12,61 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb87771225985964eb1b3773729ddfc1, type: 3}
   m_Name: Prologue
   m_EditorClassIdentifier: 
-  dialogueLines: []
+  dialogueLines:
+  - character:
+      name: 
+      icon: {fileID: 0}
+    line: How many years have passed since the last time I was here?
+    hasChoices: 0
+    choice1: 
+    choice2: 
+    soundToPlay: {fileID: 0}
+    dialoguetoStartOn1: {fileID: 0}
+    dialoguetoStartOn2: {fileID: 0}
+  - character:
+      name: 
+      icon: {fileID: 0}
+    line: Ten?
+    hasChoices: 0
+    choice1: 
+    choice2: 
+    soundToPlay: {fileID: 0}
+    dialoguetoStartOn1: {fileID: 0}
+    dialoguetoStartOn2: {fileID: 0}
+  - character:
+      name: 
+      icon: {fileID: 0}
+    line: 'Probably more. I was still in kindergarten when I stopped visiting this
+      place. There was no one left
+
+      to visit.'
+    hasChoices: 0
+    choice1: 
+    choice2: 
+    soundToPlay: {fileID: 0}
+    dialoguetoStartOn1: {fileID: 0}
+    dialoguetoStartOn2: {fileID: 0}
+  - character:
+      name: 
+      icon: {fileID: 0}
+    line: "It\u2019s much quieter now than it was back then. I can barely remember
+      what it was like before\u2026"
+    hasChoices: 0
+    choice1: 
+    choice2: 
+    soundToPlay: {fileID: 0}
+    dialoguetoStartOn1: {fileID: 0}
+    dialoguetoStartOn2: {fileID: 0}
+  - character:
+      name: 
+      icon: {fileID: 0}
+    line: 'That sound... It''s like a ghost from my past. They had this big, old
+      pendulum clock. I used to hate
+
+      that thing.'
+    hasChoices: 0
+    choice1: 
+    choice2: 
+    soundToPlay: {fileID: 0}
+    dialoguetoStartOn1: {fileID: 0}
+    dialoguetoStartOn2: {fileID: 0}

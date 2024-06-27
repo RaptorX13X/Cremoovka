@@ -19,6 +19,7 @@ public class DialogueLine
     public bool hasChoices;
     public string choice1;
     public string choice2;
+    public AudioClip soundToPlay;
 
     public DialogueSO dialoguetoStartOn1;
     public DialogueSO dialoguetoStartOn2;
