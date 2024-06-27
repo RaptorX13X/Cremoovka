@@ -121,7 +121,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: memory_3_SpriteColored_0
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 2720
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744ab343602c7764db225c654c71f923
+      internalID: 263063728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memory_3_SpriteColored_1
+      rect:
+        serializedVersion: 2
+        x: 2962
+        y: 0
+        width: 2720
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e18b760e5f4fbf48ab1fe72f5dd32c4
+      internalID: -984726292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memory_3_SpriteColored_2
+      rect:
+        serializedVersion: 2
+        x: 5799
+        y: 0
+        width: 2720
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d918e66d2a1104e8413dafa7bb5fa3
+      internalID: -251334191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: memory_3_SpriteColored_3
+      rect:
+        serializedVersion: 2
+        x: 8602
+        y: 0
+        width: 2669
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb73a8a7317d7c468c9f6ab55f18f6f
+      internalID: 1634634424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +216,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      memory_3_SpriteColored_0: 1400837951
+      memory_3_SpriteColored_1: 263063728
+      memory_3_SpriteColored_2: -984726292
+      memory_3_SpriteColored_3: -251334191
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
