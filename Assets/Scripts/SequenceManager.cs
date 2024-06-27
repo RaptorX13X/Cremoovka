@@ -11,7 +11,7 @@ public class SequenceManager : MonoBehaviour
     [SerializeField] private bool isActuallySecond;
 
     [SerializeField] private SequenceManager nextMemorySequence;
-
+    
     private void Update()
     {
         if (firstDialogue.isComplete() && !minigame.isComplete && !secondDialogue.isComplete() && !isActuallySecond)
@@ -21,7 +21,7 @@ public class SequenceManager : MonoBehaviour
         
         else if (firstDialogue.isComplete() && isActuallySecond)
         {
-            
+            nextMemorySequence.gameObject.SetActive(true);
         }
         // else if (firstDialogue.isComplete() && minigame.isComplete && !secondDialogue.isComplete())
         // {
