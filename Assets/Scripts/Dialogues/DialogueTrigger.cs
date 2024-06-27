@@ -29,17 +29,8 @@ public class DialogueLine
 public class DialogueTrigger : MonoBehaviour
 {
     public DialogueSO dialogue;
-    public Button startDialogueButton;
     public void TriggerDialogue()
     {
         DialogueManager.Instance.StartDialogue(dialogue);
-    }
-
-    private void Start()
-    {
-        if (startDialogueButton != null)
-        {
-            startDialogueButton.onClick.AddListener(TriggerDialogue);
-        }
     }
 }

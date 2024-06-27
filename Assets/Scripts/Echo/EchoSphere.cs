@@ -31,11 +31,9 @@ public class EchoSphere : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.gameObject.layer);
         if (other.TryGetComponent(out MeshRenderer renderer))
         {
             echoObjects.Add(renderer);
-            Debug.Log("why");
         }
     }
 
@@ -51,7 +49,6 @@ public class EchoSphere : MonoBehaviour
     {
         while(playerMovement.isMoving)
         {
-            Debug.Log("schmoving");
             //play stepping sound
             yield return new WaitForSeconds(timeToWaitStepToEcho);
             //play echo sound
