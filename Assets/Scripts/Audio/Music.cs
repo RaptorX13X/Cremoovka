@@ -10,4 +10,9 @@ public class Music : MonoBehaviour
     {
         musicSource.PlayOneShot(music);
     }
+
+    public void StopMusic()
+    {
+        musicSource.Stop();
+    }
 }
