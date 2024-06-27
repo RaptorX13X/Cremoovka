@@ -13,6 +13,9 @@ public class MinigameController : MonoBehaviour
 
     public bool isComplete = false;
 
+    [SerializeField] private GameObject originalMemory;
+    [SerializeField] private GameObject newMemory;
+
     public void StartMinigame()
     {
         background.SetActive(true);
@@ -41,7 +44,8 @@ public class MinigameController : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         isComplete = true;
         dialogueCanvas.SetActive(true);
-        continuedDialogue.TriggerDialogue();
+        originalMemory.SetActive(false);
+        newMemory.SetActive(true);
         //dialogueManager.isDialogueActive = false;
     }
 }
