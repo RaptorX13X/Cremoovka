@@ -34448,6 +34448,36 @@ PrefabInstance:
       propertyPath: minXRot
       value: -30
       objectReference: {fileID: 0}
+    - target: {fileID: 4231571874346443498, guid: 4fa0f544457e6c04cb0c99f4d996fa90,
+        type: 3}
+      propertyPath: footstepSource
+      value: 
+      objectReference: {fileID: 1772292228}
+    - target: {fileID: 4231571874346443498, guid: 4fa0f544457e6c04cb0c99f4d996fa90,
+        type: 3}
+      propertyPath: footstepClips.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4231571874346443498, guid: 4fa0f544457e6c04cb0c99f4d996fa90,
+        type: 3}
+      propertyPath: footstepClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2db823aeb3b80ed4aacc3b2a09a3659c, type: 3}
+    - target: {fileID: 4231571874346443498, guid: 4fa0f544457e6c04cb0c99f4d996fa90,
+        type: 3}
+      propertyPath: footstepClips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8468a929df712094bb8af351c58b371a, type: 3}
+    - target: {fileID: 4231571874346443498, guid: 4fa0f544457e6c04cb0c99f4d996fa90,
+        type: 3}
+      propertyPath: footstepClips.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: dbb233d7c4584944d947f2210d8b0b8d, type: 3}
+    - target: {fileID: 4231571874346443498, guid: 4fa0f544457e6c04cb0c99f4d996fa90,
+        type: 3}
+      propertyPath: footstepClips.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6baf07f19e94a23438996b0e764875e5, type: 3}
     - target: {fileID: 6034652178744412072, guid: 4fa0f544457e6c04cb0c99f4d996fa90,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -34475,6 +34505,12 @@ PrefabInstance:
 --- !u!1 &1772292227 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3213854403073388209, guid: 4fa0f544457e6c04cb0c99f4d996fa90,
+    type: 3}
+  m_PrefabInstance: {fileID: 1772292226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1772292228 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3663829786266324888, guid: 4fa0f544457e6c04cb0c99f4d996fa90,
     type: 3}
   m_PrefabInstance: {fileID: 1772292226}
   m_PrefabAsset: {fileID: 0}
