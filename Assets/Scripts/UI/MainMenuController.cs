@@ -14,7 +14,7 @@ public class MainMenuController : MonoBehaviour
     {
         whiteFlash.DOFade(1f, 2f).OnComplete(() =>
         {
-            SceneManager.LoadScene(gameSceneInt);
+            SceneManager.LoadScene("GameplayScene");
         });
     }
 
