@@ -2,14 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using DG.Tweening;
+using UnityEngine.UI;
 
 public class MainMenuController : MonoBehaviour
 {
     [SerializeField] private int gameSceneInt;
+    [SerializeField] private Image whiteFlash;
 
     public void StartGame()
     {
-        SceneManager.LoadScene(gameSceneInt);
+        whiteFlash.DOFade(1f, 2f).OnComplete(() =>
+        {
+            SceneManager.LoadScene(gameSceneInt);
+        });
     }
 
     public void Credits()
