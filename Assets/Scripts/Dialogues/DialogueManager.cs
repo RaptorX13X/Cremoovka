@@ -83,8 +83,9 @@ public class DialogueManager : MonoBehaviour
         isDialogueTyping = false;
     }
 
-    void EndDialogue()
+    void EndDialogue()  
     {
         isDialogueActive = false;
+        dialogueArea.text = "";
     }
 }
