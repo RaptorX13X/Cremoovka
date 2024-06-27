@@ -25,4 +25,4 @@ MonoBehaviour:
     soundToPlay: {fileID: 0}
     dialoguetoStartOn1: {fileID: 0}
     dialoguetoStartOn2: {fileID: 0}
-  isComplete: 1
+  isComplete: 0

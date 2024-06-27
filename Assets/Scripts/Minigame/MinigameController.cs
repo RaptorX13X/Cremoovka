@@ -9,7 +9,6 @@ public class MinigameController : MonoBehaviour
     [SerializeField] private GameObject background;
     [SerializeField] private DialogueManager dialogueManager;
     [SerializeField] private GameObject dialogueCanvas;
-    [SerializeField] private DialogueTrigger continuedDialogue;
 
     public bool isComplete = false;
 
@@ -22,9 +21,8 @@ public class MinigameController : MonoBehaviour
     public void StartMinigame()
     {
         background.SetActive(true);
-        Cursor.lockState = CursorLockMode.Confined;
+        //Cursor.lockState = CursorLockMode.None;
         dialogueCanvas.SetActive(false);
-        //dialogueManager.isDialogueActive = true;
     }
 
     private void Update()
@@ -36,7 +34,6 @@ public class MinigameController : MonoBehaviour
                 return;
             }
         }
-
         StartCoroutine(PuzzleComplete());
     }
 
@@ -44,13 +41,13 @@ public class MinigameController : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         background.SetActive(false);
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
         isComplete = true;
         dialogueCanvas.SetActive(true);
         originalMemory.SetActive(false);
         newMemory.SetActive(true);
         memorySpirit.SetActive(true);
         player.PlayMemoryMusic(memoryMusic);
-        //dialogueManager.isDialogueActive = false;
+        StopCoroutine(PuzzleComplete());
     }
 }

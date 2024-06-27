@@ -11,10 +11,11 @@ public class SequenceManager : MonoBehaviour
     [SerializeField] private bool isActuallySecond;
 
     [SerializeField] private SequenceManager nextMemorySequence;
+    [SerializeField] private Music music;
     
     private void Update()
     {
-        if (firstDialogue.isComplete() && !minigame.isComplete && !secondDialogue.isComplete() && !isActuallySecond)
+        if (firstDialogue.isComplete() && !isActuallySecond)
         {
             FirstDialogueToMinigame();
         }
@@ -22,6 +23,7 @@ public class SequenceManager : MonoBehaviour
         else if (firstDialogue.isComplete() && isActuallySecond)
         {
             nextMemorySequence.gameObject.SetActive(true);
+            music.StopMusic();
         }
         // else if (firstDialogue.isComplete() && minigame.isComplete && !secondDialogue.isComplete())
         // {

@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isMoving;
 
     private void Awake() {
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void Update()
