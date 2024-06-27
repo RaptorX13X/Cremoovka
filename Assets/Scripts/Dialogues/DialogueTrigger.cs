@@ -32,4 +32,9 @@ public class DialogueTrigger : MonoBehaviour
     {
         DialogueManager.Instance.StartDialogue(dialogue);
     }
+
+    public bool isComplete()
+    {
+        return dialogue.isComplete;
+    }
 }

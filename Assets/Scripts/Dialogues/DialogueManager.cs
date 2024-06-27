@@ -18,7 +18,7 @@ public class DialogueManager : MonoBehaviour
 
     public float typingSpeed = 0.08f;
 
-    private DialogueSO currentDialogue; 
+    public DialogueSO currentDialogue; 
     private DialogueLine currentLine;
 
     private bool isDialogueTyping;
@@ -33,6 +33,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(DialogueSO dialogue)
     {
+        currentDialogue = dialogue;
         isDialogueActive = true;
 
         lines.Clear();
@@ -57,6 +58,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (lines.Count == 0)
         {
+            currentDialogue.isComplete = true;
             EndDialogue();
             return;
         }
@@ -87,6 +89,5 @@ public class DialogueManager : MonoBehaviour
     {
         isDialogueActive = false;
         dialogueArea.text = "";
-        currentDialogue.isComplete = true;
     }
 }

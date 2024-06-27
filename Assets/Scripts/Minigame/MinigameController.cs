@@ -7,10 +7,18 @@ public class MinigameController : MonoBehaviour
 {
     [SerializeField] private List<PuzzleAnchor> anchors;
     [SerializeField] private GameObject background;
+    [SerializeField] private DialogueManager dialogueManager;
+    [SerializeField] private GameObject dialogueCanvas;
+    [SerializeField] private DialogueTrigger continuedDialogue;
 
-    private void Start()
+    public bool isComplete = false;
+
+    public void StartMinigame()
     {
+        background.SetActive(true);
         Cursor.lockState = CursorLockMode.Confined;
+        dialogueCanvas.SetActive(false);
+        //dialogueManager.isDialogueActive = true;
     }
 
     private void Update()
@@ -29,7 +37,11 @@ public class MinigameController : MonoBehaviour
     IEnumerator PuzzleComplete()
     {
         yield return new WaitForSeconds(1f);
-        Debug.Log("*moan*");
         background.SetActive(false);
+        Cursor.lockState = CursorLockMode.Locked;
+        isComplete = true;
+        dialogueCanvas.SetActive(true);
+        continuedDialogue.TriggerDialogue();
+        //dialogueManager.isDialogueActive = false;
     }
 }

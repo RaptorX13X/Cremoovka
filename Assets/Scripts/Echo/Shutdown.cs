@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 
 public class Shutdown : MonoBehaviour
 {
-    public MeshRenderer meshRenderer;
+    private MeshRenderer meshRenderer;
 
     private void Start()
     {
