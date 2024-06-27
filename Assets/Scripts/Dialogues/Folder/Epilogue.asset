@@ -12,5 +12,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb87771225985964eb1b3773729ddfc1, type: 3}
   m_Name: Epilogue
   m_EditorClassIdentifier: 
-  dialogueLines: []
+  dialogueLines:
+  - character:
+      name: 
+      icon: {fileID: 0}
+    line: I wish we had more time together.
+    hasChoices: 0
+    choice1: 
+    choice2: 
+    soundToPlay: {fileID: 0}
+    dialoguetoStartOn1: {fileID: 0}
+    dialoguetoStartOn2: {fileID: 0}
+  - character:
+      name: 
+      icon: {fileID: 0}
+    line: "And that we hadn\u2019t stopped coming here after my Grandparents died."
+    hasChoices: 0
+    choice1: 
+    choice2: 
+    soundToPlay: {fileID: 0}
+    dialoguetoStartOn1: {fileID: 0}
+    dialoguetoStartOn2: {fileID: 0}
+  - character:
+      name: 
+      icon: {fileID: 0}
+    line: "After years, the last air left house\u2019s lungs."
+    hasChoices: 0
+    choice1: 
+    choice2: 
+    soundToPlay: {fileID: 0}
+    dialoguetoStartOn1: {fileID: 0}
+    dialoguetoStartOn2: {fileID: 0}
+  - character:
+      name: 
+      icon: {fileID: 0}
+    line: But today, at last, we both breathed in.
+    hasChoices: 0
+    choice1: 
+    choice2: 
+    soundToPlay: {fileID: 0}
+    dialoguetoStartOn1: {fileID: 0}
+    dialoguetoStartOn2: {fileID: 0}
   isComplete: 0

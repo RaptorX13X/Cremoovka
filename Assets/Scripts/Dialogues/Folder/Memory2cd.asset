@@ -12,5 +12,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb87771225985964eb1b3773729ddfc1, type: 3}
   m_Name: Memory2cd
   m_EditorClassIdentifier: 
-  dialogueLines: []
+  dialogueLines:
+  - character:
+      name: 
+      icon: {fileID: 0}
+    line: 'It was beautiful, indeed. It was cold, but not like ice. It was smoother,
+      and I could feel the patterns
+
+      embossed on it.'
+    hasChoices: 0
+    choice1: 
+    choice2: 
+    soundToPlay: {fileID: 0}
+    dialoguetoStartOn1: {fileID: 0}
+    dialoguetoStartOn2: {fileID: 0}
+  - character:
+      name: 
+      icon: {fileID: 0}
+    line: "There was a cat; they said it was black. One day it broke something from
+      Grandma\u2019s crockery. The\r\nsound was awful, and suddenly the crystal was
+      so sharp. But she didn\u2019t get angry."
+    hasChoices: 0
+    choice1: 
+    choice2: 
+    soundToPlay: {fileID: 0}
+    dialoguetoStartOn1: {fileID: 0}
+    dialoguetoStartOn2: {fileID: 0}
+  - character:
+      name: 
+      icon: {fileID: 0}
+    line: 'She told me to take the cat outside. Its fur was warm, just like the warmth
+      of the sun on face on a
+
+      summer day.'
+    hasChoices: 0
+    choice1: 
+    choice2: 
+    soundToPlay: {fileID: 0}
+    dialoguetoStartOn1: {fileID: 0}
+    dialoguetoStartOn2: {fileID: 0}
   isComplete: 0

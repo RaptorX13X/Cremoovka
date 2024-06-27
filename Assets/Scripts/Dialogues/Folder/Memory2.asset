@@ -12,5 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb87771225985964eb1b3773729ddfc1, type: 3}
   m_Name: Memory2
   m_EditorClassIdentifier: 
-  dialogueLines: []
+  dialogueLines:
+  - character:
+      name: 
+      icon: {fileID: 0}
+    line: The sounds kept this house alive in the past. They still do, in some way.
+    hasChoices: 0
+    choice1: 
+    choice2: 
+    soundToPlay: {fileID: 0}
+    dialoguetoStartOn1: {fileID: 0}
+    dialoguetoStartOn2: {fileID: 0}
+  - character:
+      name: 
+      icon: {fileID: 0}
+    line: "Grandma loved her crystal glassware so much\u2026"
+    hasChoices: 0
+    choice1: 
+    choice2: 
+    soundToPlay: {fileID: 0}
+    dialoguetoStartOn1: {fileID: 0}
+    dialoguetoStartOn2: {fileID: 0}
   isComplete: 0

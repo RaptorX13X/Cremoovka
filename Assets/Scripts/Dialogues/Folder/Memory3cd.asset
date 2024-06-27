@@ -12,5 +12,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb87771225985964eb1b3773729ddfc1, type: 3}
   m_Name: Memory3cd
   m_EditorClassIdentifier: 
-  dialogueLines: []
+  dialogueLines:
+  - character:
+      name: 
+      icon: {fileID: 0}
+    line: "\u2026he eventually accepted me as I was."
+    hasChoices: 0
+    choice1: 
+    choice2: 
+    soundToPlay: {fileID: 0}
+    dialoguetoStartOn1: {fileID: 0}
+    dialoguetoStartOn2: {fileID: 0}
+  - character:
+      name: 
+      icon: {fileID: 0}
+    line: 'And we would sit outside together, under the tree. He painted and talked
+      about how things were,
+
+      what the colours felt like, and it was so nice.'
+    hasChoices: 0
+    choice1: 
+    choice2: 
+    soundToPlay: {fileID: 0}
+    dialoguetoStartOn1: {fileID: 0}
+    dialoguetoStartOn2: {fileID: 0}
+  - character:
+      name: 
+      icon: {fileID: 0}
+    line: 'I imagined how the world could look, and every summer I came back for
+      more stories, more
+
+      sounds, more feelings.'
+    hasChoices: 0
+    choice1: 
+    choice2: 
+    soundToPlay: {fileID: 0}
+    dialoguetoStartOn1: {fileID: 0}
+    dialoguetoStartOn2: {fileID: 0}
+  - character:
+      name: 
+      icon: {fileID: 0}
+    line: "Until I didn\u2019t."
+    hasChoices: 0
+    choice1: 
+    choice2: 
+    soundToPlay: {fileID: 0}
+    dialoguetoStartOn1: {fileID: 0}
+    dialoguetoStartOn2: {fileID: 0}
   isComplete: 0
