@@ -7,5 +7,6 @@ using UnityEngine;
 public class DialogueSO : ScriptableObject
 {
     public List<DialogueLine> dialogueLines = new List<DialogueLine>();
+    public bool isComplete = false;
 }
 

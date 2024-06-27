@@ -23,8 +23,6 @@ public class DialogueLine
 
     public DialogueSO dialoguetoStartOn1;
     public DialogueSO dialoguetoStartOn2;
-
-    
 }
 
 public class DialogueTrigger : MonoBehaviour

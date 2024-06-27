@@ -87,5 +87,6 @@ public class DialogueManager : MonoBehaviour
     {
         isDialogueActive = false;
         dialogueArea.text = "";
+        currentDialogue.isComplete = true;
     }
 }
